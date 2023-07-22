@@ -53,7 +53,9 @@ playBtn.addEventListener("click", () => {
 nextBtn.addEventListener("click", () => {
   changeMusic("next");
 });
-preBtn.addEventListener("click", changeMusic("prev"));
+preBtn.addEventListener("click", () => {
+  changeMusic("prev");
+});
 
 function changeMusic(state) {
   audio.pause();
@@ -81,5 +83,4 @@ function changeMusic(state) {
   audio.addEventListener("timeupdate", () => {
     musicTime.value = audio.currentTime;
   });
-      
 }

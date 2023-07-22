@@ -1,5 +1,5 @@
 body {
-  margin: 260px auto;
+  margin: 20px auto;
   max-width: 400px;
   text-align: center;
   background-color: #111;
@@ -45,15 +45,10 @@ body {
   border-radius: 50%;
   background-color: white;
 }
-svg{
-    font-size: 2em;
-    margin: 0px 20px;
-    color: white;
-    cursor: pointer;
-}
-/* i {
+
+i {
   font-size: 2em;
   margin: 0px 20px;
   color: white;
   cursor: pointer;
-} */
+}
